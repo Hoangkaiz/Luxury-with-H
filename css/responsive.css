@@ -1,28 +1,37 @@
-@media screen and (min-width:200px) and (max-width:340px) {
+@media screen and (min-width:200px) and (max-width:320px) {
     .header{
         display: none;
     }
-     .item-select{
-        min-width: 100%;
-    }
+
     /* smartphones, iPhone, portrait 480x320 phones */ }
-@media screen and (min-width:480px) and (max-width:640px)  { 
-    .item-select{
-        min-width: 100%;
-    }
+@media screen and (min-width:321px) and (max-width:640px)  { 
+  
+
    
  }
 @media screen and (min-width:641px) and (max-width:960px) { 
      .item-select{
         min-width: 50%;
-    }
+    }  
+ }
+@media screen and (max-width:960px) {
      .nav-2{
         display: none;
     }
     .bars{
         display: block;
     }
- }
-@media screen and (min-width:961px) { }
-@media screen and (min-width:1024px) { /* big landscape tablets, laptops, and desktops */ }
-@media screen and (min-width:1281px) { /* hi-res laptops and desktops */ }
+}
+@media screen and (max-width:640px) {
+      .item-select{
+        min-width: 100%;
+    }
+    
+}
+@media screen and (max-width:480px) {
+    .nav{
+        display: none;
+    }
+    
+    
+}
