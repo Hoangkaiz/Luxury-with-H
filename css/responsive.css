@@ -1,0 +1,25 @@
+@media screen and (max-width:480px)  {
+    .header{
+        display: none;
+    }
+     /* smartphones, iPhone, portrait 480x320 phones */ }
+@media screen and (max-width:640px)  { 
+    .item-select{
+        min-width: 100%;
+    }
+   
+ }
+@media screen and (max-width:960px) { 
+     .item-select{
+        min-width: 45%;
+    }
+     .nav-2{
+        display: none;
+    }
+    .bars{
+        display: block;
+    }
+ }
+@media screen and (max-width:1024px) { }
+@media screen and (max-width:1280px) { /* big landscape tablets, laptops, and desktops */ }
+@media screen and (min-width:1281px) { /* hi-res laptops and desktops */ }
